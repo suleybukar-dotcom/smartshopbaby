@@ -94,4 +94,3 @@ Dans le panneau DNS de ton registrar (LWS) :
 - Tous les `?tag=souleiman9802-21` ont été supprimés du contenu
 - Les liens Amazon propres sont conservés (`/dp/ASIN` uniquement)
 - Mention en pied de page + bannière info sur les pages comparatives
-"# smartshopbaby"  
