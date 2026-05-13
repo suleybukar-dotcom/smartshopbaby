@@ -86,7 +86,7 @@ export default function ComparatifPage({ params }: Props) {
               .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
               .replace(/\*(.*?)\*/g, '<em>$1</em>')
               .replace(/^- (.*)/gm, '<li>$1</li>')
-              .replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>')
+              .replace(/(<li>[\s\S]*?<\/li>)/g, '<ul>$1</ul>')
               .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
               .replace(/\n\n/g, '</p><p>')
               .replace(/^(?!<[h|u|l|p])(.+)/gm, '<p>$1</p>')
